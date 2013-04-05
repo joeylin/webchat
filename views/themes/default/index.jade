@@ -1,0 +1,34 @@
+extends layout
+
+block content
+    body.home-page
+        .homepage-container
+            .slideshow
+                #slideshow
+                    .slide
+                        h2 Realtime & Free
+                        .slide-image
+                // #slideshow
+            
+            .login-box
+                .inner-padding
+                    img.logo(src='img/logo.png', width='217', height='239', alt='Logo')
+                    h3 Free & ready to go web chat room.
+                    p
+                        a(href="/auth/qq")
+                            img(src='img/login_qq.png', width='120', height='24', alt='qq')
+                        em or
+                        a(href="/auth/sina")
+                            img(src='img/login_sina.png', width='120', height='24', alt='qq')
+
+            // #login-box 
+        // .homepage-container
+    
+        footer
+            | Balloons.IO is an 
+            a(href='https://github.com/gravityonmars/Balloons.IO', target="_blank") Open Source project 
+            | developed by 
+            a(href='http://twitter.com/gravityonmars', target="_blank") Gravity On Mars.
+
+        // JavaScript at the bottom for fast page loading 
+
