@@ -36,10 +36,12 @@ webchat 是一个web的多-房间聊天系统。
 然后修改config.json中的sina和QQ的第三方登录keys。
 
 打开终端启动 Redis
-./redis_start.sh
+
+`./redis_start.sh`
 
 打开另一个终端启动webchat
-./start.sh
+
+`./start.sh`
 
 在浏览器中打开 `http://127.0.0.1:6789` (你也可以在'config.json'中修改启动端口)
 
