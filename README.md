@@ -22,7 +22,7 @@ webchat 是一个web的多-房间聊天系统。
 
 尝试启动 Redis
 
-`./redis-server ./redis.conf`
+`./redis-server redis.conf`
 
 
 ### 安装 webchat
