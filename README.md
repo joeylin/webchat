@@ -18,7 +18,7 @@ webchat 是一个web的多-房间聊天系统。
     wget https://redis.googlecode.com/files/redis-2.6.12.tar.gz
     tar -zxvf redis-2.6.12.tar.gz
     cd redis-2.6.12
-    make && make install
+    make && sudo make install
 
 尝试启动 Redis
 
